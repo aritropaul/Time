@@ -57,6 +57,9 @@ else if (min < 30){
     if (minsInEnglish == "ten"){
         minsInEnglish = "tenmin"
     }
+    if (minsInEnglish == "twenty five"){
+        minsInEnglish = "twenty fivemin"
+    }
     var time = "It is "+minsInEnglish+" minutes past "+hourInEnglish;
 } 
 
@@ -78,6 +81,9 @@ else if (min > 30){
     }
     if (minsInEnglish == "ten"){
         minsInEnglish = "tenmin"
+    }
+    if (minsInEnglish == "twenty five"){
+        minsInEnglish = "twenty fivemin"
     }
     var time = "It is "+minsInEnglish+" minutes to "+hourInEnglish;
     
