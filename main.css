@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'DPSD';
+    src: url("DPSDbeyond.otf");
+    font-weight: 600;
+}
+
+body{
+    background: #222222;
+    font-family:"DPSD";
+    font-size: 140%;
+    color: rgba(138, 138, 138,0.2);
+    display: flex;
+    vertical-align: middle; 
+    justify-content: center;
+}
+
+.container{
+    display: block;
+    align-content: center;
+    width: 90%; 
+    text-align: center;
+    text-justify: inter-character;
+    margin-top:3%;
+}
+
+h1{
+    letter-spacing: 20px;
+}
+
