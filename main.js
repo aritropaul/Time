@@ -11,6 +11,11 @@ if(hour > 12)
     hour = hour - 12;
 }
 
+else if (hour == 0)
+{
+    hour = 12;
+}
+
 var ONE_TO_TWELVE = [
     "one", "two", "three", "four", "five",
     "six", "seven", "eight", "nine", "ten",
@@ -96,6 +101,7 @@ else if (min > 30){
 // is.style.color = lit;
 
 res = time.toLowerCase().split(" ");
+
 
 for (i = 0; i < res.length; i++) { 
     document.getElementById(res[i]).style.color = lit;
