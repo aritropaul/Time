@@ -41,6 +41,13 @@ else if (min == 30){
     var time = "It is "+minsInEnglish+" past "+hourInEnglish;
 }
 
+else if (min == 15)
+{
+    hourInEnglish = ONE_TO_TWELVE[hour-1];
+    minsInEnglish = mins[((min)/5) - 1];
+    var time = "It is "+minsInEnglish+" past "+hourInEnglish;
+}
+
 else if (min < 30){
     hourInEnglish = ONE_TO_TWELVE[hour-1];
     minsInEnglish = mins[(min/5) - 1];
@@ -52,6 +59,7 @@ else if (min < 30){
     }
     var time = "It is "+minsInEnglish+" minutes past "+hourInEnglish;
 } 
+
 
 
 else if (min == 45)
