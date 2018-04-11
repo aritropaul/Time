@@ -104,3 +104,4 @@ for (i = 0; i < res.length; i++) {
 setTimeout(function(){
     window.location.reload(1);
  }, 5000);
+ 
